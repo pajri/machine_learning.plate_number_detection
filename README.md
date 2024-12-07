@@ -65,4 +65,22 @@ Input:
 
 Output:
 
-![alt](./img_md/taxi_response.png)
+![alt](./img_md/bike_response.png)
+
+### 3 - Car
+Input:
+
+![alt](./car_jakarta.jpg)
+
+Output:
+
+![alt](./img_md/car_response.png)
+
+### 3 - Government Plate Number
+Input:
+
+![alt](./government.png)
+
+Output:
+
+![alt](./img_md/car_response.png)
