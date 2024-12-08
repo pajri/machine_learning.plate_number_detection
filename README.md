@@ -4,15 +4,18 @@
 This notebook contains code to detect plate number. The input is image file that contains plate number. The output is data that can be retrieved from the plate number. 
 
 The following is description of the response:
-- plat_no: the plate number
-- vehicle_color: color  of the vehicle
-- plate_color: plate number color (background and foreground)
-- area: plate area based on the prefix (indonesian number plate format). refer to Regulation of the Chief of the Indonesian National Police Number 7 of 2021
-- sub_area: plate area based on the prefix and postfix (indonesian number plate format). refer to Regulation of the Chief of the Indonesian National Police Number 7 of 2021
-- vehicle_type_1: vehicle type based on number segment. refer to Regulation of the Chief of the Indonesian National Police Number 7 of 2021
-- vehicle_type_1: vehicle type based on plate color. refer to Regulation of the Chief of the Indonesian National Police Number 7 of 2021
-- plate_expired: expired date for plate. 
-- is_expired': true/false. calculate from the expire date and current date.
+|        Field Name         | Description                                                                                                                                                      |
+|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `plat_no`                 | The plate number                                                                                                                                                 |
+| `vehicle_color`           | Color of the vehicle                                                                                                                                             |
+| `plate_color`             | Plate number color (background and foreground)                                                                                                                   |
+| `area`                    | Plate area based on the prefix (Indonesian number plate format). Refer to Regulation of the Chief of the Indonesian National Police Number 7 of 2021             |
+| `sub_area`                | Plate area based on the prefix and postfix (Indonesian number plate format). Refer to Regulation of the Chief of the Indonesian National Police Number 7 of 2021 |
+| `vehicle_type_1`          | Vehicle type based on number segment. Refer to Regulation of the Chief of the Indonesian National Police Number 7 of 2021                                        |
+| `vehicle_type_2`          | Vehicle type based on plate color. Refer to Regulation of the Chief of the Indonesian National Police Number 7 of 2021                                           |
+| `plate_expired`           | Expired date for plate                                                                                                                                           |
+| `is_expired`              | `true`/`false`. Calculate from the expire date and current date                                                                                                  |
+
 
 Sample response:
 ```json
