@@ -83,4 +83,13 @@ Input:
 
 Output:
 
-![alt](./img_md/car_response.png)
+![alt](./img_md/government_response.png)
+
+### 4 - Not a Vehicle
+Input:
+
+![alt](./orang_utan.jpeg)
+
+Output:
+
+![alt](./img_md/orangutan_response.png)
